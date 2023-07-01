@@ -1,0 +1,551 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background: rgb(18, 40, 54);
+    padding: 5px;
+}
+
+.o {
+    padding-left: 250px;
+    font-size: 30px;
+    color: dodgerblue;
+    padding-top: 5px;
+}
+
+.l {
+    font-size: 40px;
+    color: dodgerblue;
+}
+
+.x {
+    padding-top: 2px;
+    font-size: 30px;
+    color: dodgerblue;
+
+}
+
+h5 {
+    padding-top: 10px;
+    padding-left: 300px;
+    color: white;
+}
+
+i {
+    padding-left: 30px;
+    padding-top: 10px;
+    color: white;
+}
+
+.sms {
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.yourprofile {
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.btn {
+   padding: 5px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 3px;
+    padding-top: o.3px;
+    cursor: pointer;
+}
+
+.navbar2 {
+    display: flex;
+    width: 100%;
+    height: 140px;
+    background-color: rgb(204, 202, 202);
+}
+
+.search_bar {
+     width: 600px;
+     height: 60px;
+     background-color: rgb(255, 255, 255);
+     margin-top: 30px;
+     margin-left: 240px;
+     border-radius: 3px;
+}
+
+.search_bar i {
+    padding-left: 15px;
+    padding-top: 20px;
+    color: black;
+}
+
+.search_bar2 {
+    height: 60px;
+    border-left: 1px solid black;
+    width: 300px;
+    margin-top: 30px;
+    background-color: white;
+    display: flex;
+}
+
+.search_bar2 i {
+    color: black;
+    padding-top: 22px;
+    
+}
+
+.uzb {
+    padding-top: 20px;
+    padding-left: 3px;
+    font-size: 14px;
+}
+
+.srch {
+    padding-top: 22px;
+    font-size: 12px;
+    padding-left: 30px;
+}
+
+.search_bar2 i {
+    padding-right: 10px;
+    font-size: 13px;
+}
+
+.cards_box {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 250px;
+}
+
+.main {
+    text-align: center;
+    padding-top: 90px;
+}
+
+.card {
+    display: flex;
+    gap: 40px;
+}
+
+.card img {
+    border-radius: 50%;
+    margin-top: 50px;
+    
+}
+
+#photo {
+    margin-left: 240px;
+
+}
+
+.bar {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+
+.collection {
+    display: flex;
+    gap: 70px;
+}
+
+.item {
+    list-style: none;
+}
+
+.item1 {
+    list-style: none;
+    margin-left: 250px;
+}
+
+.box2 {
+    width: 100%;
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+}
+
+.premium {
+    padding-top: 50px;
+    background-color: rgb(150, 150, 157);
+    margin-top: 30px;
+}
+
+.card_ {
+    width: 250px;
+    height: 355px;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.card_ img {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.product {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.sale {
+    padding-left: 10px;
+}
+
+.price {
+    padding-left: 70px;
+    padding-top: 3px;
+    display: flex;
+}
+
+.label {
+    padding-left: 15px;
+}
+
+.price i {
+    margin-top: -10px;
+    margin-left: 90px;
+}
+
+.bigbox {
+    display: flex;
+    gap: 100px;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(150, 150, 157);
+}
+
+
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(14, 14, 68);
+    margin-top: 400px;
+    display: flex;
+    gap: 50px;
+}
+
+.footer i {
+    font-size: 40px;
+    padding-top: 30px;
+    margin-left: 130px;
+    color: dodgerblue;
+}
+
+.footer_logo {
+   padding-top: 45px;
+   margin-left: 240px;
+   color: white;
+}
+
+.act {
+    width: 150px;
+    height: 35px;
+    margin-top: 35px;
+    margin-left: 200px;
+    border-radius: 5px;
+    border: none;
+}
+
+.footer_bottom {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(166, 212, 255);
+    display: flex;
+}
+
+
+.o1 {
+    padding-left: 590px;
+    font-size: 100px;
+    color: rgb(14, 14, 68);
+    padding-top: 70px;
+    
+}
+
+.l1 {
+    font-size: 100px;
+    color: rgb(14, 14, 68);
+    padding-top: 80px;
+    margin-left: -5px;
+}
+
+.x1 {
+    padding-top: 95px;
+    font-size: 60px;
+    color: rgb(14, 14, 68);
+
+}
+
+.description {
+    margin: auto;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.footer_bottom2 {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(166, 212, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer_web {
+    width: 100%;
+    height: 260px;
+    background-color: rgb(230, 232, 230);
+}
+
+.footer_web i {
+    font-size: 80px;
+    padding-top: 30px;
+    padding-left: 270px;
+}
+
+.footer_web h4 {
+    color: black;
+    padding-top: 20px;
+    padding-left: 250px;
+    font-size: 14px;
+}
+
+.footerweb_bottom {
+    width: 100%;
+    height: 395px;
+    display: flex;
+}
+
+
+    .footer_web {
+        width: 100%;
+        height: 260px;
+        background-color: rgb(230, 232, 230);
+    }
+    
+    .footer_web i {
+        font-size: 80px;
+        padding-top: 30px;
+        padding-left: 270px;
+    }
+    
+    .footer_web h4 {
+        color: black;
+        padding-top: 20px;
+        padding-left: 250px;
+        font-size: 14px;
+    }
+    
+    .footerweb_bottom {
+        width: 100%;
+        height: 395px;
+        display: flex;
+    }
+    
+    .footer_left {
+        width: 50%;
+        background-color: rgb(230, 232, 230);
+    }
+    
+    .footer_right {
+        width: 50%;
+        background-color: yellow;
+    }
+    
+    .footer_left h3 {
+        font-size: 15px;
+        padding-top: 20px;
+        padding-left: 200px;
+    }
+    
+    .logofooter {
+        font-size: 15px;
+        margin-top: 40px;
+        padding-left: 100px;
+    }
+    
+    
+    .logofooter2 select {
+        border: none;
+        background-color: rgb(230, 232, 230);
+    }
+    
+    .footer_right {
+        display: flex;
+    
+    }
+    
+    .btnweb {
+        width: 130px;
+        height: 50px;
+        margin-left: 10px;
+        margin-top: 80px;
+    }
+    
+    .btnweb i {
+        font-size: 15px;
+    }
+    
+    .footer_right h3 {
+        padding-top: 145px;
+        margin-left: -267px;
+        font-size: 15px;
+    };
+
+
+
+    .footer_web {
+        width: 100%;
+        height: 260px;
+        background-color: rgb(230, 232, 230);
+    }
+    
+    .footer_web i {
+        font-size: 80px;
+        padding-top: 50px;
+        padding-left: 270px;
+        color: black;
+    }
+    
+    .footer_web h4 {
+        color: black;
+        padding-top: 20px;
+        padding-left: 250px;
+        font-size: 14px;
+    }
+    
+    .footerweb_bottom {
+        width: 100%;
+        height: 395px;
+        display: flex;
+    }
+    
+    .footer_left {
+        width: 50%;
+        background-color: rgb(230, 232, 230);
+    }
+    
+    .footer_right {
+        width: 50%;
+        background-color: rgb(230, 232, 230);
+    }
+    
+    .footer_left h3 {
+        font-size: 15px;
+        padding-top: 20px;
+        padding-left: 200px;
+    }
+    
+    .logofooter {
+        font-size: 15px;
+        margin-top: 40px;
+        padding-left: 100px;
+    }
+    
+    
+    .logofooter2 select {
+        border: none;
+        background-color: rgb(230, 232, 230);
+    }
+    
+    .footer_right {
+        display: flex;
+    
+    }
+    
+    .btnweb {
+        width: 130px;
+        height: 50px;
+        margin-left: 10px;
+        margin-top: 80px;
+    }
+    
+    .btnweb i {
+        font-size: 15px;
+    }
+    
+    .footer_right h3 {
+        padding-top: 145px;
+        margin-left: -267px;
+        font-size: 15px;
+    };
+
+
+.footer_left h3 {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-left: 200px;
+}
+
+.logofooter {
+    font-size: 15px;
+    margin-top: 40px;
+    padding-left: 100px;
+}
+
+
+.logofooter2 select {
+    border: none;
+    background-color: rgb(230, 232, 230);
+}
+
+.footer_right {
+    display: flex;
+
+}
+
+.btnweb {
+    width: 130px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+
+.btnweb i {
+    font-size: 15px;
+    color: black;
+    
+}
+
+.footer_right h3 {
+    padding-top: 145px;
+    margin-left: -280px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.title {
+    color: red;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 100;
+    font-family: cursive;
+}
+
+.btn {
+    /* top-bottom - right-left */
+    margin: 50px 100px;
+    padding: 8px 20px;
+    border-radius: 0px 15px;
+    border: none;
+    border-bottom: 3px solid dodgerblue;
+    border-top: 3px solid dodgerblue;
+    transition: 0.3s;
+}
+.btn:hover {
+    border-radius: 15px 0px;
+}
+
+.btn2 {
+    /* top-right-bottom-left */
+    padding: 30px 10px 5px 15px;
+    border-radius: 20px 20px 20px 0px;
+}
+
+
